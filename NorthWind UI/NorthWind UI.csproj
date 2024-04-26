@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>NorthWind_UI</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DLL\BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="E:\.Netttt\Tires-trial\NorthWind UI\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="E:\.Netttt\Tires-trial\NorthWind UI\.editorconfig" />
+  </ItemGroup>
+
+</Project>
